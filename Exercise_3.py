@@ -35,8 +35,8 @@ class LinkedList:
        while fast and fast.next:
            slow = slow.next
            fast = fast.next.next
-
-       print(slow.data)
+        
+       print(slow.data if slow else "The list is empty")
 
 # Driver code 
 list1 = LinkedList() 
