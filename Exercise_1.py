@@ -1,5 +1,5 @@
 """ 
-Binary Search Implementation (Iterative Solution)
+Exercise_1 : Binary Search. (Iterative Solution)
 
 # Time Complexity :
 - O(log n) where n is the size of array (each iteration reduces search space by half)
@@ -8,11 +8,6 @@ Binary Search Implementation (Iterative Solution)
 # Space Complexity :
 - O(1) (only using constant extra space for variables l, r, m)
 
-# Did this code successfully run on Leetcode :
-- Yes
-
-# Any problem you faced while coding this :
-- No
 """
 
 def binarySearch(arr, l, r, x):

@@ -1,5 +1,5 @@
 """ 
-QuickSort Implementation
+Exercise_2 : Quick sort.
 
 # Time Complexity :
 - Average case: O(n log n) where n is the size of array
@@ -10,11 +10,6 @@ QuickSort Implementation
 - O(log n) average case for recursion stack
 - O(n) worst case for recursion stack when array is sorted/reverse sorted
 
-# Did this code successfully run on Leetcode :
-- Yes
-
-# Any problem you faced while coding this :
-- No
 """
 
 def partition(arr, low, high):
